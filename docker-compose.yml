@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  db:
+    # database for the LTI TP
+    image: mysql:5
+    environment:
+      MYSQL_ROOT_PASSWORD: secretpasswd
+      MYSQL_DATABASE: ltidb
+
+  ltitp:
+    # LTI Tool Provider, the rating application
+    build: .
+    image: markkur/lti-sample-tool-provider-container
+    ports:
+      - "8070:80"
+    depends_on:
+      - db
+
