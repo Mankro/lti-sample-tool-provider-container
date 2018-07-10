@@ -1,6 +1,6 @@
 # Container for the LTI Sample Tool Provider
 
-This container runs the [LTI Sample Tool Provider (TP)](https://github.com/IMSGlobal/LTI-Sample-Tool-Provider-PHP) (released by the IMS Global Learning Consortium, Inc.) in a container.
+This container runs the [LTI Sample Tool Provider (TP)](https://github.com/IMSGlobal/LTI-Sample-Tool-Provider-PHP) (released by the IMS Global Learning Consortium, Inc.).
 See the [wiki of the tool provider](https://github.com/IMSGlobal/LTI-Sample-Tool-Provider-PHP/wiki/Usage) for instructions.
 Minimal usage instructions are given below.
 
